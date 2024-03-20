@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/owl.theme.default.min.css'; ?>">
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/slick-theme.css'; ?>">
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/slick.css'; ?>">
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/style.css'; ?>">
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/new-style.css'; ?>">
+<link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/style.css?v='.time(); ?>">
+<link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/new-style.css?v='.time(); ?>">
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/css/responsive.css'; ?>">
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default-new/summernote-0.8.20-dist/summernote-lite.min.css'; ?>">
 <link rel="stylesheet" href="<?php echo base_url() . 'assets/global/tagify/tagify.css'; ?>">
