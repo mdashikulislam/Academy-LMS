@@ -1,0 +1,7 @@
+/.idea
+application/config/config.php
+application/config/database.php
+/uploads
+/.vscode
+application/logs/hits.txt
+application/logs/test.txt
