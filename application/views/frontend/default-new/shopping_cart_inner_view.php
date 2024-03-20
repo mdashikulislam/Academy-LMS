@@ -6,7 +6,7 @@
                 <h3><?php echo get_phrase('Your Cart Items') ?></h3>
             </div>
             <div class="cart-scroll-bar">
-                <table class="table ">
+                <table class="table table-dark">
                     <thead>
                       <tr>
                         <th scope="col"><p><?php echo get_phrase('Items') ?></p></th>

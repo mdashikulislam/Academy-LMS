@@ -51,7 +51,7 @@ $instructor_details = $this->user_model->get_all_user($course_details['user_id']
         </div>
         <div class="invoice-dec">
             <div class="invoice-bill--scroll-bar">
-                <table class="table">
+                <table class="table table-dark">
                     <thead class="invoice-2-table-head">
                       <tr>
                         <th class="pe-5" scope="col"><h6><?php echo get_phrase('Course'); ?></h6></th>

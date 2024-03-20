@@ -12,7 +12,7 @@ $purchase_history = $this->db->get('payment',$per_page, $this->uri->segment(3));
             </div>
             <div class="col-lg-9 col-md-8 col-sm-12">
                 <div class="purchase-body common-card">
-                    <table class="table">
+                    <table class="table table-dark">
                         <thead class="table-head">
                             <tr>
                                 <th scope="col"><h6><?php echo get_phrase('Purchased courses') ?></h6></th>

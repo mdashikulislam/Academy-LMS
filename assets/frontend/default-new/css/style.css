@@ -14,7 +14,7 @@
   --color-1 :  #fff;
   --color-2 :  #000;
   --color-3 :  #505763;
-  --color-4 :  #754FFE;
+  --color-4 :  #0250A7;
   --color-5 :  #000;
   --color-6 :  #676C7D;
   --color-7 :  #261954;
@@ -257,6 +257,7 @@ body{
     overflow-x: hidden;
     color: var(--bg-white);
     line-height: 24px;
+    background-color: var(--bg-dark);
 }
 h1{
     font-size: 36px;
@@ -293,7 +294,7 @@ p{
 	z-index: 999;
 	top: 250px;
 	right: 0;
-	background-color: var(--bg-white-2);
+	background-color: var(--bg-dark);
 	height: 48px;
 	width: 50px;
 	border-top-left-radius: 10px;
@@ -334,12 +335,12 @@ p{
 }
 .language-control .nice-select{
   height: inherit;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .language-control .nice-select .option:hover, 
 .language-control .nice-select .option.focus, 
 .language-control .nice-select .option.selected.focus{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .webui-popover.right > .arrow::after, .webui-popover.right-top > .arrow::after, .webui-popover.right-bottom > .arrow::after {
 	
@@ -456,7 +457,7 @@ p{
   position: relative;
 }
 .menu_pro_tgl_bg{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   padding: 12px 29px 10px 29px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   border-radius: 10px;
@@ -488,7 +489,7 @@ p{
   top: -19px;
   right: -12px;
   position: absolute;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   transform: rotate(44deg);
 }
 .menu_pro_tgl_bg .path-pos img{
@@ -593,7 +594,7 @@ p{
  
 }
 .menu_pro_wish{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   border-radius: 5px;
   position: absolute;
@@ -772,7 +773,7 @@ p{
   padding: 5px 20px 25px;
 }
 .menu_pro_btn .btn{
-  background-color: #754FFE;
+  background-color: #0250A7;
   display: inline-block;
   color: #fff;
   border: none;
@@ -841,7 +842,7 @@ p{
 .antry-col li .antry-submenu,
 .main-nav-wrap li .navbarHover {
   position: absolute;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border-top: 1px solid #e8e9eb;
   box-sizing: border-box;
   box-shadow: 0 2px 5px 0px rgb(20 23 28 / 25%); 
@@ -1050,7 +1051,7 @@ p{
   font-weight: 400;
   color: var(--color-1);
   width: 100%;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border: 1.5px solid #6e798a43;
 }
 .menu-search .form-control::placeholder{
@@ -1155,7 +1156,7 @@ p{
   display: none;
 }
 .offcanvas{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .offcanves-btn{
   display: flex;
@@ -1189,7 +1190,7 @@ p{
 }
 .logIn-btn{
   color: var(--primary-color) !important;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border: 1px solid #919499;
   padding: 8px 5px;
   border-radius: 5px !important;
@@ -1299,7 +1300,7 @@ p{
 	padding: 13px 24px;
 	margin: 0 27px;
 	font-size: 13px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   color: var(--color-1);
   border: none;
 }
@@ -1330,7 +1331,7 @@ p{
 	box-shadow: 0 4px 16px rgb(128 134 144 / 25%);
 	border-color: transparent;
 	border-radius: 10px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   padding: 20px;
   width: 350px;
 }
@@ -1487,7 +1488,7 @@ p{
 	margin-top: 8px;
 	font-size: 16px;
 	border: 1.5px solid #1e293b2a;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   color: var(--color-3);
 	border-radius: 5px;
 	width: 100%;
@@ -1574,7 +1575,7 @@ p{
 /*------ Corese -------- */
 
 .courses{
-    background-color: var(--bg-white-2);
+    background-color: var(--bg-dark);
     padding-bottom: 80px;
     margin-bottom: 0 !important;
     
@@ -1647,7 +1648,7 @@ p{
     
 }
 .courses-card-body {
-    background-color: var(--bg-white);
+  background-color: var(--bg-dark);
     border-radius: 10px;
     margin-bottom: 20px;
     transition: .2s;
@@ -1783,7 +1784,7 @@ p{
 .category-product .category-product-body{
     box-sizing: border-box;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
-    background-color: var(--bg-white-2);
+    background-color: var(--bg-dark);
     border-radius: 7px;
     padding: 15px 20px;
     margin: 10px;
@@ -1882,7 +1883,7 @@ p{
     position: relative;
   }
   .expert-instructor .instructor-card .instructor-card-text .icon-div-2 {
-    background-color: var(--bg-white-2);
+    background-color: var(--bg-dark);
     padding: 6px 9px 4px;
     border-radius: 10px 10px 0px 0px;
     position: absolute;
@@ -1930,7 +1931,7 @@ p{
   }
   .accordion-button:not(.collapsed) {
     color: var(--color-4);
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     box-shadow: none;
   }
   .qustion .accordion-item{
@@ -1950,7 +1951,7 @@ p{
   }
   .introduction{
     padding: 80px 0 60px 0;
-    background-color: var(--bg-white-2);
+    background-color: var(--bg-dark);
   }
   .qustion .accordion-body {
     padding: 0 6px 22px 0;
@@ -2104,7 +2105,7 @@ p{
   }
 .blog{
     margin-bottom: 120px;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
 }
   /* student */
 .student{
@@ -2161,7 +2162,7 @@ p{
 /* slik logo */
 .company-logo{
   padding-bottom: 50px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .company-logo img{
   height: 47px;
@@ -2428,10 +2429,10 @@ p{
 	border-radius: 5px;
 	background-image: none;
 	width: 170px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .select-box  .nice-select .list{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .select-box .nice-select.open .list {
 	width: 100%;
@@ -2455,7 +2456,7 @@ p{
 .list-btn {
   background-color: transparent;
   color: #6E798A;
-  border: 1.5px solid #754FFE;
+  border: 1.5px solid #0250A7;
 }
 .grid-view {
   padding-bottom: 80px;
@@ -2549,7 +2550,7 @@ p{
 }
 .course-all-category .form-check-input,
 .course-price .form-check-input{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .course-category a:hover{
   color: var(--color-4);
@@ -2587,7 +2588,7 @@ p{
 }
 .course-category h3::after{
   content: "";
-  background-color: #754FFE;
+  background-color: #0250A7;
   height: 2px;
   width: 50%;
   position: absolute;
@@ -2641,11 +2642,12 @@ p{
 }
 .grid-view-body{
   background-color: var(--bg-dark);
+  color: #fff;
 }
 
 /* Pagenation */
 .pagenation-items {
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 	display: flex;
   justify-content: center;
   padding-bottom: 70px;
@@ -2656,7 +2658,7 @@ p{
 	border-radius: 5px;
 	color: var(--color-13);
 	border: 1px solid #D1D4DC;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -2739,7 +2741,7 @@ courses-list View Page
 }
 .courses-list-view-card-body .courses-card-image .courses-icon i{
   color: #6e798a81;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   border-radius: 50%;
   padding: 8px;
   position: absolute;
@@ -2795,7 +2797,7 @@ color: #F9B23A;
 margin-right: 8px;
 }
 .course-decription{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .course-decription li .nav-link{
   color: var(--color-1);
@@ -2832,14 +2834,14 @@ margin-right: 8px;
 
 .course-left-side .nav-tabs .nav-item.show .nav-link,
 .course-left-side .nav-tabs .nav-link.active{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .course-left-side{
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   margin-top: -35px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   padding: 10px;
 }
 /* Accordion Area */
@@ -2916,7 +2918,7 @@ margin-right: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   margin-top: -150px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .course-right-section .course-card .enrol{
   display: flex;
@@ -2962,7 +2964,7 @@ margin-right: 8px;
 }
 .course-right-section .button a{
   text-decoration: none;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border: 1.5px solid var(--color-4);
   color:  var(--color-4);
   text-align: center;
@@ -3016,7 +3018,7 @@ margin-right: 8px;
 }
 .courses-card-image .courses-icon i{
   color: #6e798a81;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   border-radius: 50%;
   padding: 8px;
   position: absolute;
@@ -3028,7 +3030,7 @@ margin-right: 8px;
   color: #FF3434;
 }
 .course-details-card{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 
 /* Curriculum section */
@@ -3217,7 +3219,7 @@ margin-right: 8px;
  
 }
 .settings-icon ul{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .settings-icon a{
   color:var(--color-1) ; 
@@ -3261,7 +3263,7 @@ margin-right: 8px;
   font-weight: 400;
   line-height: 1.5;
   color: var(--color-1);
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border: 1.5px solid #6E798A30;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -3483,7 +3485,7 @@ Error Page
 }
 .error-body{
   padding: 100px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .error-body h1{
   font-size: 30px;
@@ -3509,7 +3511,7 @@ Error Page
 Trams & condition
 =====================  */
 .tramsCondition{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .trams-condition-text h1{
   font-size: 22px;
@@ -3527,7 +3529,7 @@ Trams & condition
 =====================*/
 .blog-body {
   padding-top: 50px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .blog-body .top .profile-img img{
   height: 28px;
@@ -3711,7 +3713,7 @@ Trams & condition
   color: #6E798A;
   width: 100%;
   border-radius: 9px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .blog-body .right-section h4{
   font-size: 20px;
@@ -3849,10 +3851,13 @@ Sign Up Page
   border-radius: 11px;
   font-size: 14px;
   font-weight: 400;
-  color: #6E798A;
+  color: #fff;
   width: 100%;
   border: none;
   background-color: #6e798a1c;
+}
+.form-control::placeholder{
+  color: #fff!important;
 }
 .sing-up-right form{
   position: relative;
@@ -3861,13 +3866,13 @@ Sign Up Page
   position: absolute;
   left: 18px;
   top: 34%;
-  color: #6e798aae;
+  color: #fff;
 }
 .sing-up-right .eye-icon i{
   position: absolute;
   left: 93%;
   top: 25%;
-  color: #6e798aae;
+  color: #fff;
 }
 .sing-up-right .form-control:focus{
    box-shadow: none;
@@ -3936,7 +3941,7 @@ Sign Up Page
   background-color: var(--color-4);
 }
 .sing-up-right .social-media .btn:hover {
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border-color: #6e798a45;
 }
 .forget-pass{
@@ -3978,7 +3983,7 @@ Sign Up Page
 }
 .instructor-1 {
   padding-top: 50px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .instructor-1 .instructor-video{
   position: relative;
@@ -4003,7 +4008,7 @@ Sign Up Page
 .instructor-1 .instructor-about{
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   padding: 39px 30px;
   border-radius: 10px;
   margin-bottom: 120px;
@@ -4154,7 +4159,7 @@ Sign Up Page
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   border-radius: 10px;
   padding: 11px 0px 19px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .instructor-right .instructor-msg {
   margin-bottom: 50px;
@@ -4184,15 +4189,15 @@ Sign Up Page
  Wish List Page start 
  ==========================*/
  .wishlist-course{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
  }
  .wish-list-body{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
  }
 .wish-list-body .wish-list-search{
   position: relative;
   margin-top: 50px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   padding: 30px 18px;
@@ -4238,7 +4243,7 @@ Sign Up Page
 .wish-list-course .my-cosre{
   display: flex;
   border-radius: 7px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   transition: .5s;
   padding: 10px 0 10px 20px;
   margin-top: 5px;
@@ -4268,7 +4273,7 @@ Sign Up Page
   Message Page start 
  ==========================*/
 .message{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
  .message .conversation .form-control {
   padding: 9px 0px 11px 38px;
@@ -4437,7 +4442,7 @@ Sign Up Page
   padding: 0px 0px 9px 18px;
   position: relative;
   margin-top: 50px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-bottom: 120px;
@@ -4629,7 +4634,7 @@ Sign Up Page
   border-radius: 10px;
 }
 .purchase-body{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   padding: 22px 20px;
@@ -4758,7 +4763,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   text-decoration: none;
   color: var(--color-1);
   font-size: 12px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   transition: .5s;
   margin-left: 10px;
  }
@@ -4784,7 +4789,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   border: 1.5px solid #6e798a49;
   font-size: 13px;
   padding: 12px 20px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   color: var(--color-1);
 }
 .profile-input .from-control-2{
@@ -4813,7 +4818,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   color: #6E798A;
   text-align: center;
   white-space: nowrap;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   border: 1.5px solid #6e798a49;
   border-radius: .375rem;
   border-right: 0;
@@ -4829,7 +4834,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   font-weight: 400;
   color: #6E798A;
   width: 236px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   padding: 11px 21px;
   cursor: pointer;
 }
@@ -4862,7 +4867,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   font-size: 13px;
   font-weight: 400;
   color: var(--color-1);
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   height: 200px;
   padding: 12px 20px;
   resize: none;
@@ -4882,7 +4887,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
   border-bottom: none;
 }
 .profile-ful-body{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   padding: 18px 29px;
@@ -4901,7 +4906,7 @@ tbody, td, tfoot, th, thead, tr:last-child{
 ========================*/
 .faq{
   padding: 80px 0 30px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .faq .faq-img img{
   width: 100%;
@@ -4966,13 +4971,13 @@ Price Page start
 =========================*/
 .price-card,
 .price-heading{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .price-card{
   padding-bottom: 100px;
 }
 .price-card-full-body{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   padding: 18px 29px;
@@ -5081,7 +5086,7 @@ Price Page start
 }
 .contact-page{
  padding: 50px 100px;
- background-color: var(--bg-white);
+ background-color: var(--bg-dark);
 }
 .contact-page .contact-heading{
   margin-bottom: 50px;
@@ -5138,7 +5143,7 @@ Price Page start
   font-weight: 400;
   line-height: 1.5;
   color: var(--color-1);
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   background-clip: padding-box;
   border: 1.5px solid #6E798A30;
   -webkit-appearance: none;
@@ -5160,7 +5165,7 @@ Price Page start
   padding: 10px;
   margin-right: 10px;
   border: 1.5px solid #6e798a4f;
-/*  background-color: var(--bg-white-2);*/
+/*  background-color: var(--bg-dark);*/
 }
 .form-section .cheack-box p{
   margin-top: 4px;
@@ -5191,7 +5196,7 @@ Price Page start
 }
 .cart-page{
   padding: 50px 0 70px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .cart-page .cart-table .cart-table-image img{
   height: 73px;
@@ -5245,7 +5250,7 @@ Price Page start
   margin-bottom: 22px;
 }
 .cart-total{
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   padding: 18px 23px;
@@ -5298,13 +5303,13 @@ Price Page start
 
 
 .course-decription-2{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 /*=====================
   Check out page
 =============================*/
 .check-out-heading{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .check-out-heading h2{
   font-size: 30px;
@@ -5335,7 +5340,7 @@ Price Page start
   font-weight: 400;
   line-height: 1.5;
   color: var(--color-1);
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   background-clip: padding-box;
   border: 1.5px solid #6E798A30;
   -webkit-appearance: none;
@@ -5353,7 +5358,7 @@ Price Page start
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   background-clip: padding-box;
   border: 1.5px solid #6E798A30;
   -webkit-appearance: none;
@@ -5411,7 +5416,7 @@ Price Page start
 }
 
 .payment-imformation-card{
-    background-color: var(--bg-white-2);
+    background-color: var(--bg-dark);
     box-sizing: border-box;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
     padding: 18px 29px;
@@ -5432,7 +5437,7 @@ Price Page start
   font-weight: 400;
   line-height: 1.5;
   color: var(--color-1);
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   background-clip: padding-box;
   border: 1.5px solid #6E798A30;
   -webkit-appearance: none;
@@ -5462,13 +5467,13 @@ Price Page start
 }
 .check-out-contact{
   padding-bottom: 120px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 
 /* Invoice Page start */
 .invoice{
   padding: 50px 0 80px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .invoice h3{
   font-weight: 700;
@@ -5732,7 +5737,7 @@ Price Page start
  =======================*/
 .about-us{
   padding: 50px 0 120px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .about-us h3{
   font-size: 16px;
@@ -6217,7 +6222,7 @@ Compare Page Start
 =====================*/
 .compare-card {
   padding: 60px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .compare-card .empty-card{
   height: 358px;
@@ -6249,7 +6254,7 @@ Compare Page Start
 }
 .compare-card .card{
   border: none;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .compare-card .card h3{
   font-size: 18px;
@@ -6407,12 +6412,12 @@ white-space: normal;
   padding-bottom: 100px;
   overflow: auto;
   white-space: nowrap;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 /**************************** Letest Compare Page Start  *********/
 .antry-compare{
   padding: 60px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .compare-table-con {
 	overflow-x: auto;
@@ -6645,7 +6650,7 @@ Home Page 2
 }
 .h-2-courses {
   padding-bottom: 100px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .h-2-courses h1{
   padding-top: 0;
@@ -6931,7 +6936,7 @@ Home Page 3 Page Start
   margin-bottom: 24px;
 }
 .h-3-bannar-card{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: var(--box-shadow);
   padding: 18px 29px;
@@ -7086,13 +7091,13 @@ Home Page 3 About
 }
 .h-3-about{
   padding: 130px 0 40px 0;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 
 /* Home Page 3 Course */
 .client-testi{
   padding-top: 80px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
 }
 .h-3-courses h1 strong{
   position: relative;
@@ -7227,7 +7232,7 @@ Home Page 3 About
 }
 .h-3-expert-instructor{
   padding: 80px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .h-3-expert-instructor-heading p{
   max-width: 600px;
@@ -7355,7 +7360,7 @@ Terms & Conditions
 Privacy Policy
 ===========================  */
 .privacy-policy{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .privacy-policy-text{
   margin-top: 50.8px;
@@ -7406,7 +7411,7 @@ Privacy Policy
 
 .my-course-1-full-body{
   margin-top: 50px;
-  background-color: var(--bg-white-2);
+  background-color: var(--bg-dark);
   box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 30px 18px;
@@ -8528,4 +8533,32 @@ display: none;
   font-weight: 400;
   line-height: 28px;
   color: #676c7d;
+}
+.form-control{
+  background: transparent!important;
+}
+.form-control::placeholder{
+  color: #fff!important;
+}
+.text-muted{
+  color: #ededed!important;
+}
+.text-black{
+  color: #fff!important;
+}
+.form-control:disabled{
+  color: #fff;
+}
+label.text-dark{
+  color: #fff!important;
+}
+.input-group-text{
+  color: #fff;
+  border-color: #fff;
+}
+.form-control.bg-white-2{
+  color: #fff;
+}
+.note-editable{
+  color: #fff;
 }

@@ -138,7 +138,7 @@
 <section class="compare-table compare-2">
     <div class="container">
         <div class="compare-2-table">
-        <table class="table">
+        <table class="table table-dark">
                 <thead>
                     <tr>
                       <th scope="col">

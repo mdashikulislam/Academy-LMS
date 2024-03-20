@@ -356,7 +356,7 @@
     border-radius: 5px;
     color: var(--color-13);
     border: 0px solid #00000000;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     font-size: 16px;
     font-weight: 400;
 }
@@ -371,7 +371,7 @@
 .page-item:first-child:not(.active) .page-link {
     border-radius: 5px;
     border: none;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     color: var(--color-9);
     border: 1px solid var(--bg-white);
 }
@@ -710,13 +710,13 @@ ul.step-down li:last-child::before {
 
 /*Student profile*/
 .wish-list-body .wish-list-search {
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 15px 0px !important;
     border: 1px solid #f3f1f8 !important;
 }
 
 .my-course-1-full-body {
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 15px 0px !important;
     border: 1px solid #f3f1f8 !important;
 }
@@ -795,7 +795,7 @@ ul.step-down li:last-child::before {
 }
 
 .bg-white-2 {
-    background-color: var(--bg-white-2) !important;
+    background-color: var(--bg-dark) !important;
 }
 
 .conversation-body-1.active {
@@ -1094,7 +1094,7 @@ ul.step-down li:last-child::before {
 }
 
 .list-card-control .btn {
-   color: #754FFE;
+   color: #fff;
 }
 
 .select-box .nice-select .current {
@@ -1236,7 +1236,7 @@ ul.step-down li:last-child::before {
 }
 
 .common-card {
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 15px 0px !important;
     border: 1px solid #f3f1f8 !important;
 }
