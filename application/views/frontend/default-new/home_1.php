@@ -4,20 +4,9 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-md-1 order-sm-2 order-2">
                 <div class="h-1-banner-text mb-3">
-                    <?php
-                        $banner_title = site_phrase(get_frontend_settings('banner_title'));
-                        $banner_title_arr = explode(' ', $banner_title);
-                    ?>
+
                     <h1>
-                        <?php
-                        foreach($banner_title_arr as $key => $value){
-                            if($key == count($banner_title_arr) - 1){
-                                echo '<span class="d-inline-block">'.$value.'</span>';
-                            }else{
-                                echo $value.' ';
-                            }
-                        }
-                        ?>
+                        Learn 2x faster for free with <span style="color: #1A86FF!important;">Smart Today</span>
                     </h1>
                     <p><?php echo site_phrase(get_frontend_settings('banner_sub_title')); ?></p>
                 </div>

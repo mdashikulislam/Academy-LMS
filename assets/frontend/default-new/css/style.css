@@ -11,7 +11,7 @@
   --bg-white-5 : #fff;
   --bg-white-6 : #444;
   --bg-white-7 : #fff;
-  --color-1 :  #1E293B;
+  --color-1 :  #fff;
   --color-2 :  #000;
   --color-3 :  #505763;
   --color-4 :  #754FFE;
@@ -33,7 +33,7 @@
   --border-color : #1e293b2a;
   --color-linear : linear-gradient(96deg, rgba(235,247,247,1) 0%, rgba(248,231,249,1) 100%);
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
- 
+ --bg-dark:#16181C;
 }
 
 .home_1st{
@@ -255,7 +255,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color: var(--primary-color);
+    color: var(--bg-white);
     line-height: 24px;
 }
 h1{
@@ -378,17 +378,17 @@ p{
 .sub-header  .right-icon i{
     padding: 15px;
     font-size: 17px;
-    color: var(--color-1);
+    color: var(--color-9);
 }
 .sub-header .icon a{
     text-decoration: none;
-    color: var(--color-1);
+    color: var(--color-9);
     font-size: 14px;
 }
 .sub-header{
     border-bottom: 1.5px solid var(--border-color);
     padding: 5px 0 9px 0;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
 }
 .menubar .logo img{
     width: auto;
@@ -752,9 +752,8 @@ p{
 	text-align: center;
 	font-size: 11px;
 }
-.menu_pro_wish-f-b:hover{
-  background-color: var(--hover-color);
-  color: var(--color-10);
+.menu_pro_wish-f-b{
+  color: var(--color-1)!important;
 }
 .menu_pro_wish-f-b:last-child{
   border-bottom: none;
@@ -1120,12 +1119,12 @@ p{
 
 /* Banner */
 .bannar-area{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .h-1-banner .h-1-banner-text h1{
     font-size: 54px;
     font-weight: 700;
-    color: var(--color-1);
+    color: var(--color-9);
     letter-spacing: 1px;
     margin-bottom: 34px;
     margin-top: 54px;
@@ -1134,25 +1133,7 @@ p{
     color: #754FFE;
     position: relative;
 }
-.h-1-banner .h-1-banner-text h1 span::after{
-    content: "";
-    background-image: url("../image/h-1-bn-shape-1.png");
-    width: 35px;
-    height: 36px;
-    position: absolute;
-    background-size: 35px;
-    bottom: -43px;
-}
-.h-1-banner .h-1-banner-text h1 span::before {
-	content: "";
-	background-image: url("../image/h-1-bn-shape-2.png");
-	width: 160px;
-	height: 31px;
-	position: absolute;
-	background-size: 162px;
-	bottom: -64px;
-	right: 0;
-}
+
 .h-1-banner .h-1-banner-text p{
     font-weight: 400;
     letter-spacing: 1.2px;
@@ -1289,7 +1270,7 @@ p{
 }
 .menubar{
   position: relative;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
   padding: 9px 0;
 }
 .inline-form {
@@ -1469,7 +1450,7 @@ p{
 
 .top-categories {
 	padding: 60px 0 80px 0;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 
 
@@ -1549,6 +1530,7 @@ p{
 .students-rating h1{
     font-size: 44px;
     font-weight: 700;
+  color: #fff;
 }
 .students-rating p{
     margin-bottom: 0;
@@ -1607,18 +1589,10 @@ p{
 }
 .courses h1 span{
     position: relative;
+  color: var(--bg-white);
 }
 
-.courses h1 span::before{
-    content: "";
-    background-image: url("../image/h-1-bn-shape-2.png");
-    width: 116px;
-    height: 21px;
-    position: absolute;
-    background-size: 119px;
-    top: 31px;
-    left: 89px;
-}
+
 .courses p{
     margin-bottom: 50px;
 }
@@ -1783,21 +1757,12 @@ p{
 
 /* Top Category */
 .top-categories h1{
-    font-size: 32;
+    font-size: 32px;
     font-weight: 700;
-    color: var(--color-1);
+    color: var(--color-9);
     position: relative;
 }
-.top-categories h1::after{
-    content: "";
-    background-image: url("../image/h-1-shape.png");
-    width: 160px;
-    height: 31px;
-    position: absolute;
-    background-size: 162px;
-    top: 45px;
-    right: 180px;
-}
+
 .category-product .category-product-body img{
     width: 44px;
     height: 45px;
@@ -2146,7 +2111,7 @@ p{
     padding-bottom: 120px;
     overflow: hidden;
     padding-top: 60px;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
 }
   .student .student-body-1{
     background-image: url("../image/Group 18132.png");
@@ -2488,13 +2453,13 @@ p{
   font-size: 12px;
 }
 .list-btn {
-  background-color: #fff;
+  background-color: transparent;
   color: #6E798A;
-  border: 1.5px solid #6e798a45;
+  border: 1.5px solid #754FFE;
 }
 .grid-view {
   padding-bottom: 80px;
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 .list-btn.active {
   background-color: var(--color-4);
@@ -2675,7 +2640,7 @@ p{
   margin-bottom: 0;
 }
 .grid-view-body{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 
 /* Pagenation */
@@ -7429,7 +7394,7 @@ Privacy Policy
 }
 
 .sign-up{
-  background-color: var(--bg-white);
+  background-color: var(--bg-dark);
 }
 
 

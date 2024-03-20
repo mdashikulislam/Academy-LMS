@@ -13,6 +13,17 @@
  * @filesource
  */
 //phpinfo();
+
+
+function pp($data)
+{
+    echo '<pre style="padding:10px;">';
+    print_r($data);
+    echo '</pre>';
+    exit();
+}
+
+
 if (! function_exists('remove_js')) {
     function remove_js($description = '', $convert_string = false) {
 

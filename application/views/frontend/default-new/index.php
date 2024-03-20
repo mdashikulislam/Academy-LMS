@@ -75,7 +75,7 @@ if($language_dirs){
 	</style>
 
 </head>
-<body class="<?php echo $this->session->userdata('theme_mode'); ?>">
+<body class="<?php echo $this->session->userdata('theme_mode') ? :'dark'; ?>" style="background-color:var(--bg-dark) ">
 	<?php
 	//user wishlist items
     $my_wishlist_items = array();
